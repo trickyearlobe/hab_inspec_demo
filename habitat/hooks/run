@@ -6,6 +6,6 @@ while true; do
   echo "Starting compliance scan"
   inspec exec --config {{pkg.svc_config_path}}/config.json {{pkg.path}}/inspec_demo
 
-  echo "Sleeping for 30 seconds"
-  sleep 30
+  echo "Sleeping for {{cfg.a2.sleep}} seconds"
+  sleep {{cfg.a2.sleep}}
 done

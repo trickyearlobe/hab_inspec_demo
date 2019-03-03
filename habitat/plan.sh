@@ -1,6 +1,6 @@
 pkg_name=hab_inspec_demo
 pkg_origin=trickyearlobe
-pkg_version="0.1.1"
+pkg_version="0.1.2"
 pkg_maintainer="Richard Nixon <richard.nixon@btinternet.com>"
 pkg_license=("Apache-2.0")
 

@@ -11,7 +11,7 @@
       "insecure" : true,
       "node_name" : "{{sys.hostname}}",
       "node_uuid" : "{{sys.member_id}}",
-      "environment" : "prod"
+      "environment" : "{{svc.group}}"
     }
   }
 }

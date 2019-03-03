@@ -31,6 +31,7 @@ Dynamically apply a new config for Automate reporting
 echo "[a2]" > a2_reporting.toml
 echo "fqdn = 'my.new.a2.fqdn'" >> a2_reporting.toml
 echo "token = 'aqx06dMsRzw8ec3QidiR5lRoIGQ='" >> a2_reporting.toml
+echo "sleep = '300'" >> a2_reporting.toml
 
 # Then apply it to the running service group
 hab config apply hab_inspec_demo.default 1 a2_reporting.toml
