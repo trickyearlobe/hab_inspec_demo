@@ -1,0 +1,17 @@
+{
+  "version": "1.1",
+  "cli_options":{
+    "color": "true"
+  },
+  "reporter": {
+    "automate" : {
+      "stdout" : true,
+      "url" : "https://{{cfg.a2.fqdn}}/data-collector/v0/",
+      "token" : "{{cfg.a2.token}}",
+      "insecure" : true,
+      "node_name" : "{{sys.hostname}}",
+      "node_uuid" : "{{sys.member_id}}",
+      "environment" : "prod"
+    }
+  }
+}

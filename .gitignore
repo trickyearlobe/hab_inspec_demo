@@ -1,0 +1,6 @@
+
+# No Hab build artifacts
+results/
+
+.DS_Store
+.idea
