@@ -1,6 +1,7 @@
 
 # No Hab build artifacts
 results/
+inspec.lock
 
 .DS_Store
 .idea

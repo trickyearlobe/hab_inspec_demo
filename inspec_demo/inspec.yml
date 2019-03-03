@@ -1,10 +1,10 @@
 name: inspec_demo
 title: InSpec Profile
-maintainer: The Authors
-copyright: The Authors
-copyright_email: you@example.com
+maintainer: Richard Nixon
+copyright: Richard Nixon
+copyright_email: richard.nixon@btinternet.com
 license: Apache-2.0
-summary: An InSpec Compliance Profile
-version: 0.1.0
+summary: Inspec Demo profile
+version: 0.1.1
 supports:
   platform: os
