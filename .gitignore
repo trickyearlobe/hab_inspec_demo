@@ -2,6 +2,8 @@
 # No Hab build artifacts
 results/
 inspec.lock
+user.toml
+a2_reporting.toml
 
 .DS_Store
 .idea
