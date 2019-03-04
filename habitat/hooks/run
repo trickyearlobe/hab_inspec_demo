@@ -2,6 +2,10 @@
 
 exec 2>&1
 
+# InSpec will try to create a .cache directory in the user's home directory
+# so this needs to be someplace writeable by the hab user
+export HOME={{pkg.svc_var_path}}
+
 while true; do
   echo "Starting compliance scan"
   inspec exec --config {{pkg.svc_config_path}}/config.json {{pkg.path}}/inspec_demo
