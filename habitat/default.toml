@@ -3,6 +3,6 @@
 # You can safely delete this file if you don't need it.
 
 [a2]
-fqdn = "tricky-a2.chef-demo.com"
-token = "aqx06dMsRzw8ec3QidiR5lRoIGQ="
+fqdn = "some.fqdn.here"
+token = "some.key.here"
 sleep = "30"
