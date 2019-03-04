@@ -5,4 +5,4 @@
 [a2]
 fqdn = "tricky-a2.chef-demo.com"
 token = "aqx06dMsRzw8ec3QidiR5lRoIGQ="
-sleep = "300"
+sleep = "30"
