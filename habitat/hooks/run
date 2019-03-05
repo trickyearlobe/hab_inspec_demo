@@ -8,8 +8,13 @@ export HOME={{pkg.svc_var_path}}
 
 while true; do
   echo "Starting compliance scan"
-  inspec exec --config {{pkg.svc_config_path}}/config.json {{pkg.path}}/inspec_demo
-
+  if [ "some.fqdn.here" == "{{cfg.a2.fqdn}}" ]
+    then
+      echo "No reporter configured so logging to STDOUT"
+      inspec exec {{pkg.path}}/inspec_demo
+    else
+      inspec exec --config {{pkg.svc_config_path}}/config.json {{pkg.path}}/inspec_demo
+  fi
   echo "Sleeping for {{cfg.a2.sleep}} seconds"
   sleep {{cfg.a2.sleep}}
 done
